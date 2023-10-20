@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="one">
+          <img src="icons/view-dashboard.svg" />
+          <div>Dashboard</div>
+        </div>
+        <div class="two">
+          <img src="icons/home.svg" />
+          <div>Home</div>
+          <img src="icons/card-account-details-outline.svg" />
+          <div>Profile</div>
+          <img src="icons/message-reply.svg" />
+          <div>Messages</div>
+          <img src="icons/clock-time-three.svg" />
+          <div>History</div>
+          <img src="icons/calendar-check.svg" />
+          <div>Tasks</div>
+          <img src="icons/account-group.svg" />
+          <div>Communities</div>
+        </div>
+        <div class="three">
+          <img src="icons/cog.svg" />
+          <div>Settings</div>
+          <img src="icons/help-circle-outline.svg" />
+          <div>Support</div>
+          <img src="icons/security.svg" />
+          <div>Privacy</div>
+        </div>
+      </div>
+      <div class="header">
+        <div style="display: flex; justify-content: space-between">
+          <div class="one" style="flex: 1">
+            <label for="search"
+              ><img src="icons/magnify.svg" style="width: 26px"
+            /></label>
+            <input type="text" id="search" />
+          </div>
+          <div class="two">
+            <img src="icons/bell-outline.svg" style="width: 24px" />
+            <img
+              src="avatars/avatar1.svg"
+              style="width: 40px; background: #ff6191; border-radius: 50%"
+            />
+            <div style="font-weight: 500; font-size: 20px">forevpurity</div>
+          </div>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+          "
+        >
+          <div class="three">
+            <img
+              src="avatars/avatar1.svg"
+              style="width: 70px; background: #ff6191; border-radius: 50%"
+            />
+            <div>
+              <div style="font-weight: 500">Hi there,</div>
+              <div style="font-weight: 600; font-size: 26px">
+                forevpurity (@frvprt)
+              </div>
+            </div>
+          </div>
+          <div class="four">
+            <div>New</div>
+            <div>Upload</div>
+            <div>Share</div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="left">
+          <div style="margin-bottom: 0.7rem; font-size: 22px; font-weight: 700">
+            Your Projects
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div>Super Cool Project</div>
+              <div>
+                Ipsa alias omnis iste magnam dicta dolorem incidunt itaque
+                facilis nemo aperiam. Reprehenderit porro eos dignissimos beatae
+                et voluptatem? Asperiores, sed praesentium!
+              </div>
+              <div>
+                <img src="icons/star2.svg" />
+                <img src="icons/eye2.svg" />
+                <img src="icons/share2.svg" />
+              </div>
+            </div>
+            <div class="card">
+              <div>Less Cool Project</div>
+              <div>
+                Risus commodo viverra maecenas accumsan lacus vel. Nunc eget
+                lorem dolor sed viverra ipsum nunc aliquet bibendum. Nec
+                sagittis aliquam malesuada bibendum arcu vitae elementum.
+              </div>
+              <div>
+                <img src="icons/star2.svg" />
+                <img src="icons/eye2.svg" />
+                <img src="icons/share2.svg" />
+              </div>
+            </div>
+            <div class="card">
+              <div>Impossible App</div>
+              <div>
+                Amet purus gravida quis blandit turpis cursus. Enim facilisis
+                gravida neque convallis a cras semper. Dapibus ultrices in
+                iaculis nunc sed augue.
+              </div>
+              <div>
+                <img src="icons/star2.svg" />
+                <img src="icons/eye2.svg" />
+                <img src="icons/share2.svg" />
+              </div>
+            </div>
+            <div class="card">
+              <div>Easy Peasy App</div>
+              <div>
+                Turpis egestas integer eget aliquet nibh praesent tristique
+                magna. Neque laoreet suspendisse interdum consectetur libero.
+                Etiam erat velit scelerisque in dictum non consectetur a. Amet
+                facilisis magna etiam tempor orci. Ipsum nunc aliquet bibendum
+                enim facilisis gravida neque convallis a.
+              </div>
+              <div>
+                <img src="icons/star2.svg" />
+                <img src="icons/eye2.svg" />
+                <img src="icons/share2.svg" />
+              </div>
+            </div>
+            <div class="card">
+              <div>Ad Blocker</div>
+              <div>
+                Turpis egestas integer eget aliquet nibh praesent tristique
+                magna. Neque laoreet suspendisse interdum consectetur libero.
+                Etiam erat velit scelerisque in dictum non consectetur a.
+              </div>
+              <div>
+                <img src="icons/star2.svg" />
+                <img src="icons/eye2.svg" />
+                <img src="icons/share2.svg" />
+              </div>
+            </div>
+            <div class="card">
+              <div>Money Maker</div>
+              <div>
+                Ullamcorper morbi tincidunt ornare massa eget egestas purus. Dis
+                parturient montes nascetur ridiculus. Euismod quis viverra nibh
+                cras pulvinar mattis. Mattis rhoncus urna neque viverra justo
+                nec. Morbi leo urna molestie at elementum eu. Tincidunt praesent
+                semper feugiat nibh sed pulvinar.
+              </div>
+              <div>
+                <img src="icons/star2.svg" />
+                <img src="icons/eye2.svg" />
+                <img src="icons/share2.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="top">
+            <div
+              style="margin-bottom: 11.2px; font-size: 22px; font-weight: 700"
+            >
+              Annoucements
+            </div>
+            <div
+              class="annoucements"
+              style="padding: 2rem; background-color: white; border-radius: 6px"
+            >
+              <div>
+                <div style="font-size: 14px; font-weight: 600">
+                  Site Maintenance
+                </div>
+                <div class="trunc">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolores voluptatum ipsa cupiditate unde minima odio sunt fugit
+                  distinctio labore sit accusantium voluptas voluptate aliquid
+                  rem adipisci harum, quasi modi eum quae veritatis amet iusto
+                  ratione ea fugiat.
+                </div>
+              </div>
+              <div>
+                <div style="font-size: 14px; font-weight: 600">
+                  Community Share Day
+                </div>
+                <div class="trunc">
+                  Vel rem, ipsa officia commodi veniam excepturi, ex, molestias
+                  perspiciatis consequuntur sint error voluptatem cum facilis?
+                  Voluptas accusantium, nemo laboriosam quidem ipsum explicabo
+                  sed alias possimus reprehenderit libero? Quidem illo nisi fuga
+                  odio veritatis ipsa ex quae, aut saepe!
+                </div>
+              </div>
+              <div>
+                <div style="font-size: 14px; font-weight: 600">
+                  Updated Privacy Policy
+                </div>
+                <div class="trunc">
+                  Accusamus nihil dicta, quisquam, similique doloremque unde
+                  quidem quaerat a possimus eum deleniti libero, dolore
+                  asperiores nulla!Consectetur numquam ex, sit cupiditate cumque
+                  aut quas natus beatae nulla veritatis architecto maiores
+                  exercitationem debitis, adipisci delectus corporis iure optio.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bot">
+            <div
+              style="margin: 24px 0 11.2px; font-size: 22px; font-weight: 700"
+            >
+              Trending
+            </div>
+            <div class="trending">
+              <div class="trending__avatar">
+                <img
+                  src="avatars/avataaars (1).svg"
+                  style="background-color: #ba68c8"
+                  alt=""
+                />
+                <div>
+                  <div
+                    style="
+                      font-weight: 500;
+                      font-size: 14px;
+                      margin-bottom: 4px;
+                    "
+                  >
+                    @tegan
+                  </div>
+                  <div style="font-size: 14px; color: #78716c">
+                    World Peace Builder
+                  </div>
+                </div>
+              </div>
+              <div class="trending__avatar">
+                <img
+                  src="avatars/avataaars (2).svg"
+                  style="background-color: #64b5f6"
+                  alt=""
+                />
+                <div>
+                  <div
+                    style="
+                      font-weight: 500;
+                      font-size: 14px;
+                      margin-bottom: 4px;
+                    "
+                  >
+                    @morgan
+                  </div>
+                  <div style="font-size: 14px; color: #78716c">
+                    Super Cool Project
+                  </div>
+                </div>
+              </div>
+              <div class="trending__avatar">
+                <img
+                  src="avatars/avataaars (3).svg"
+                  style="background-color: #80cbc4"
+                  alt=""
+                />
+                <div>
+                  <div
+                    style="
+                      font-weight: 500;
+                      font-size: 14px;
+                      margin-bottom: 4px;
+                    "
+                  >
+                    @kendall
+                  </div>
+                  <div style="font-size: 14px; color: #78716c">
+                    Life Changing App
+                  </div>
+                </div>
+              </div>
+              <div class="trending__avatar">
+                <img
+                  src="avatars/avataaars.svg"
+                  style="background-color: #a5d6a7"
+                  alt=""
+                />
+                <div>
+                  <div
+                    style="
+                      font-weight: 500;
+                      font-size: 14px;
+                      margin-bottom: 4px;
+                    "
+                  >
+                    @alex
+                  </div>
+                  <div style="font-size: 14px; color: #78716c">
+                    No Traffic Maker
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
